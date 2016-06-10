@@ -1,4 +1,4 @@
-package com.segment.analytics.android.integrations.apptimize;
+package com.apptimize.segment;
 
 import android.app.Activity;
 import android.app.Application;

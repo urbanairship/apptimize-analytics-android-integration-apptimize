@@ -1,4 +1,4 @@
-package com.segment.analytics.android.integrations.apptimize;
+package com.apptimize.segment;
 
 import com.apptimize.Apptimize;
 import com.apptimize.Apptimize.OnExperimentRunListener;
