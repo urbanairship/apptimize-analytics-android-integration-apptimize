@@ -1,3 +1,7 @@
+Version 1.0.3 (17th February, 2017))
+===================================
+*Update to Apptimize 2.12.4
+
 Version 1.0.2 (23rd January, 2017))
 ===================================
 *Update to Apptimize 2.12.3
