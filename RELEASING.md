@@ -1,7 +1,7 @@
 Releasing
 ========
 
- 1. Change the version in `gradle.properties` to a non-SNAPSHOT version:
+ 1. Change the version in `gradle.properties` and remove -SNAPSHOT from version:
     presumably, the current version name is X.Y.Z-SNAPSHOT. Just take the 
     "-SNAPSHOT" off the name, so it is "VERSION_NAME=X.Y.Z"
  2. Update the `CHANGELOG.md` for the impending release.
