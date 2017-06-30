@@ -89,7 +89,9 @@ public class ApptimizeIntegration extends Integration<Void> implements OnExperim
 
   @Override
   public void onExperimentRun(String experimentName, String variantName, boolean firstRun) {
-    analytics.track("Experiment Viewed", new Properties().putValue("experimentName", experimentName)
-        .putValue("variationName", variantName));
+    if (firstRun) {
+      analytics.track("Experiment Viewed", new Properties().putValue("experimentName", experimentName)
+          .putValue("variationName", variantName));
+    }
   }
 }
