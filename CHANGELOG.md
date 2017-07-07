@@ -1,3 +1,7 @@
+Version 1.0.9 (07 July, 2017)
+===================================
+*Update to Apptimize 2.12.13
+
 Version 1.0.8 (06 July, 2017)
 ===================================
 *Only create participation events for the first time a user participates in an experiment.
