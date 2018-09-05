@@ -1,4 +1,4 @@
-Version 1.0.12 (05 September, 2018)
+Version 1.13.0 (05 September, 2018)
 ===================================
 *Update to Apptimize 3.2.6
 
