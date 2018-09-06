@@ -11,9 +11,9 @@ Releasing
  5. `git tag -a X.Y.Z -m "Version X.Y.Z"` (where X.Y.Z is the new version)
  6. `./gradlew clean uploadArchives`
  7a. Update the `gradle.properties` to the next version code,
-     e.g. Update the VERSION_CODE=1130 to 1140, etc. These must be increasing...
+     e.g. Update the VERSION_CODE=1016 to 1017, etc. These must be increasing...
  7b. Update the `gradle.properties` to the next SNAPSHOT version. E.g., use the
-     next version number, with "VERSION_NAME=1.14.0-SNAPSHOT" to match the VERSION_CODE
+     next version number, with "VERSION_NAME=1.0.17-SNAPSHOT" to match the VERSION_CODE
  8. `git commit -am "Prepare next development version."`
  9. `git push && git push --tags`
  10. Visit [Sonatype Nexus](https://oss.sonatype.org/) and promote the artifact.
