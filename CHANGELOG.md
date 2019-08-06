@@ -1,3 +1,7 @@
+Version 1.0.24 (6 Aug, 2019)
+==================================
+*Update to Apptimize 3.4.9
+
 Version 1.0.23 (11 June, 2019)
 ===================================
 *Update to Apptimize 3.4.0
