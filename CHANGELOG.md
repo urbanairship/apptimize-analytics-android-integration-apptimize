@@ -1,3 +1,7 @@
+Version 1.25.2 (6 Aug, 2019)
+==================================
+*Update to Apptimize 3.4.13
+
 Version 1.25.1 (6 Aug, 2019)
 ==================================
 *Update to Apptimize 3.4.9 and trigger latest version update
