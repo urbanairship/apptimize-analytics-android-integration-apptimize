@@ -32,6 +32,6 @@ Releasing
 
 6. `./gradlew clean uploadArchives`
 
-7. `git push origin master`
+7. `git push && git push --tags`
 
 8. Visit [Sonatype Nexus](https://oss.sonatype.org/) and promote the artifact.
