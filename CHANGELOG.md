@@ -1,3 +1,7 @@
+Version 3.4.14 (18 Oct, 2019)
+==================================
+* Remove obfuscation of Android.OnApptimizeInitializedListener
+
 Version 1.25.2 (6 Aug, 2019)
 ==================================
 *Update to Apptimize 3.4.13
