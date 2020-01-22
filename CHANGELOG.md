@@ -1,3 +1,8 @@
+Version 3.5.3 (20 Jan, 2020)
+==================================
+    * Work-around for an Android 8.x bug, where it can generate a 
+      AssertionError for "No NameTypeIndex match for SHORT_DAYLIGHT"
+
 Version 3.5.2 (10 Dec, 2019)
 ==================================
     * Suppresse extra calls to OnTestRunListener - number of calls to OnTestRunListener will now match the number posted in results.
