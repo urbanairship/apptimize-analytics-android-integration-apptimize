@@ -1,3 +1,7 @@
+Version 3.6.0 (28 Jan, 2020)
+==================================
+    * Support metadata-driven opt-in mechanism for integration with other analytics frameworks
+
 Version 3.5.4 (27 Jan, 2020)
 ==================================
     * Fix visual experiments for some apks for Android-9 x86 and x86_64 simulators
