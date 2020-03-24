@@ -1,3 +1,29 @@
+Version 3.6.0 (28 Jan, 2020)
+==================================
+    * Support metadata-driven opt-in mechanism for integration with other analytics frameworks
+
+Version 3.5.4 (27 Jan, 2020)
+==================================
+    * Fix visual experiments for some apks for Android-9 x86 and x86_64 simulators
+
+Version 3.5.3 (20 Jan, 2020)
+==================================
+    * Work-around for an Android 8.x bug, where it can generate a 
+      AssertionError for "No NameTypeIndex match for SHORT_DAYLIGHT"
+
+Version 3.5.2 (10 Dec, 2019)
+==================================
+    * Suppresse extra calls to OnTestRunListener - number of calls to OnTestRunListener will now match the number posted in results.
+
+Version 3.5.1 (07 Nov, 2019)
+==================================
+* Remove unnecessary logcat output
+
+Version 3.5.0 (29 Oct, 2019)
+==================================
+* Add integration with Airship SDK to enable coordinated experiments and messaging campaigns
+* Added Apptimize.getInstantUpdateOrWinnerInfo - to fetch instant update and winning experiment infod
+
 Version 3.4.14 (18 Oct, 2019)
 ==================================
 * Remove obfuscation of Android.OnApptimizeInitializedListener
