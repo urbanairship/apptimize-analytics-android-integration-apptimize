@@ -1,3 +1,7 @@
+Version 3.6.2 (24 Mar, 2020)
+==================================
+    * Fix for rare ANRs on Android 5.0 through 7.1
+
 Version 3.6.0 (28 Jan, 2020)
 ==================================
     * Support metadata-driven opt-in mechanism for integration with other analytics frameworks
