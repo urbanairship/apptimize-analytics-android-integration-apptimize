@@ -1,3 +1,7 @@
+Version 3.6.3 (01 Apr, 2020)
+==================================
+    * Expand functional support for Android 10
+
 Version 3.6.2 (24 Mar, 2020)
 ==================================
     * Fix for rare ANRs on Android 5.0 through 7.1
