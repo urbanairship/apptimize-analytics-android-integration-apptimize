@@ -1,3 +1,7 @@
+Version 3.6. (09 Apr, 2020)
+==================================
+    * Improve performance of downloading metadata
+
 Version 3.6.3 (01 Apr, 2020)
 ==================================
     * Expand functional support for Android 10
