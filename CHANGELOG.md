@@ -1,4 +1,9 @@
-Version 3.6. (09 Apr, 2020)
+Version 3.6.5 (15 Apr, 2020)
+==================================
+    * Fix possible flashing during removal of a customized visual element
+    * Stability enhancements
+
+Version 3.6.4 (09 Apr, 2020)
 ==================================
     * Improve performance of downloading metadata
 
