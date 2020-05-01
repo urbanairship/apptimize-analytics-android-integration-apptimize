@@ -1,3 +1,7 @@
+Version 3.6.6 (28 Apr, 2020)
+==================================
+    * Remove visual support for Android 4.4
+
 Version 3.6.5 (15 Apr, 2020)
 ==================================
     * Fix possible flashing during removal of a customized visual element
