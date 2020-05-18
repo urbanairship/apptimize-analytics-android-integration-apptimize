@@ -1,3 +1,7 @@
+Version 3.6.7 (18 May, 2020)
+==================================
+    * Stability enhancements  
+
 Version 3.6.6 (28 Apr, 2020)
 ==================================
     * Remove visual support for Android 4.4
