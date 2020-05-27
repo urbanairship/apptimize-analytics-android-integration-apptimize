@@ -1,3 +1,7 @@
+Version 3.6.8 (27 May, 2020)
+==================================
+    * Update Airship integration for Airship v12.0~v13.x  
+
 Version 3.6.7 (18 May, 2020)
 ==================================
     * Stability enhancements  
