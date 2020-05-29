@@ -1,3 +1,7 @@
+Version 3.6.9 (29 May, 2020)
+==================================
+    * Support Firebase crashlytics  
+
 Version 3.6.8 (27 May, 2020)
 ==================================
     * Update Airship integration for Airship v12.0~v13.x  
