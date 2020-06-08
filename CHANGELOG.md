@@ -1,3 +1,7 @@
+Version 3.6.10 (05 Jun, 2020)
+==================================
+    * Fix images failing to download during application first loads on Visual Experiments and Instant Updates
+
 Version 3.6.9 (29 May, 2020)
 ==================================
     * Support Firebase crashlytics  
