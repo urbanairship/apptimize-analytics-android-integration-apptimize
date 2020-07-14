@@ -1,3 +1,8 @@
+Version 3.6.11 (14 Jul, 2020)
+==================================
+    * Stability enhancements
+    * Extend analytics opt-in mechanism to data export
+
 Version 3.6.10 (05 Jun, 2020)
 ==================================
     * Fix images failing to download during application first loads on Visual Experiments and Instant Updates
