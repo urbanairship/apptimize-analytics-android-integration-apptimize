@@ -1,3 +1,10 @@
+Version 3.7.0 (16 Jul, 2020)
+==================================
+    * Add metadata state monitoring functions. 
+      See documentation for Apptimize.getMetadataState,
+      Apptimize.addOnMetadataStateChangedListener and 
+      Apptimize.removeOnMetadataStateChangedListener.
+
 Version 3.6.11 (14 Jul, 2020)
 ==================================
     * Stability enhancements
