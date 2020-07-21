@@ -1,3 +1,7 @@
+Version 3.7.1 (21 Jul, 2020)
+==================================
+    * Stability enhancements 
+
 Version 3.7.0 (16 Jul, 2020)
 ==================================
     * Add metadata state monitoring functions. 
