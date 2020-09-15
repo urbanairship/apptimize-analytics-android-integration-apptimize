@@ -1,3 +1,8 @@
+Version 3.7.4 (14 Sep, 2020)
+==================================
+    * Stability enhancements
+    * Add support for EU region customers
+
 Version 3.7.1 (21 Jul, 2020)
 ==================================
     * Stability enhancements 
