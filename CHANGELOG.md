@@ -1,3 +1,11 @@
+Version 3.7.6 (19 Oct, 2020)
+==================================
+    * Stability enhancements
+    * Change developer mode pairing to use a knock action and pairing token.
+      * See: https://faq.apptimize.com/hc/en-us/articles/360018776634-How-can-I-pair-my-phone-with-the-Apptimize-dashboard
+      * The clipboard check, already disabled for iOS 14+, has been completely removed.
+      * Older SDKs will no longer be able to use the clipboard check to pair starting in January 2021.
+
 Version 3.7.4 (14 Sep, 2020)
 ==================================
     * Stability enhancements
