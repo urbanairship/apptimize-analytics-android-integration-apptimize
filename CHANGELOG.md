@@ -1,3 +1,7 @@
+Version 3.7.7 (20 Oct, 2020)
+==================================
+    * Stability enhancements. Fix an ANR when using the unit-testing-only Apptimize.reset() API.
+
 Version 3.7.6 (19 Oct, 2020)
 ==================================
     * Stability enhancements
