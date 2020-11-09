@@ -1,3 +1,10 @@
+Version 3.7.9 (09 Nov, 2020)
+==================================
+    * Fix all performance logging to use the ApptimizeLog settings
+    * Improve logcat output when when the app needs to call Apptimize.setup first,
+    * Support more server-side sdk configuration via metadata
+    * Stability enhancements
+
 Version 3.7.7 (20 Oct, 2020)
 ==================================
     * Stability enhancements. Fix an ANR when using the unit-testing-only Apptimize.reset() API.
