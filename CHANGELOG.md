@@ -1,3 +1,7 @@
+Version 3.7.10 24 Nov, 2020)
+==================================
+    * Stability enhancements
+
 Version 3.7.9 (09 Nov, 2020)
 ==================================
     * Fix all performance logging to use the ApptimizeLog settings
