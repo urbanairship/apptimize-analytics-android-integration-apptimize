@@ -1,3 +1,10 @@
+Version 3.7.13 16 Dec, 2020)
+==================================
+    * Performance optimizations for Apptimize.setup and event uploads
+    * Stability enhancements
+    * Export experiment participation to Mixpanel
+    * Add Apptimize.setLogMonitor to optionally pass all Apptimize log output to a custom logger
+
 Version 3.7.10 24 Nov, 2020)
 ==================================
     * Stability enhancements
