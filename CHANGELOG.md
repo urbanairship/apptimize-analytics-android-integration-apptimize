@@ -1,3 +1,8 @@
+Version 3.7.14 08 Jan, 2021)
+==================================
+    * Fix some situations when OnApptimizeInitializedListener.onApptimizeInitialized
+      does not get called after Apptimize.setup.
+
 Version 3.7.13 16 Dec, 2020)
 ==================================
     * Performance optimizations for Apptimize.setup and event uploads
