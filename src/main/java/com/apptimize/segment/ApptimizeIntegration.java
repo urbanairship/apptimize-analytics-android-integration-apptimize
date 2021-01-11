@@ -2,6 +2,7 @@ package com.apptimize.segment;
 
 import com.apptimize.Apptimize;
 import com.apptimize.Apptimize.OnExperimentRunListener;
+import com.apptimize.ApptimizeOptions;
 import com.segment.analytics.Analytics;
 import com.segment.analytics.Properties;
 import com.segment.analytics.ValueMap;
@@ -95,7 +96,9 @@ public class ApptimizeIntegration extends Integration<Void> implements OnExperim
   @Override
   public void onExperimentRun(String experimentName, String variantName, boolean firstRun) {
     if (firstRun) {
-      analytics.track("Experiment Viewed", new Properties().putValue("experimentName", experimentName)
+      analytics.track(
+              "Experiment Viewed",
+              new Properties().putValue("experimentName", experimentName)
           .putValue("variationName", variantName));
     }
   }
