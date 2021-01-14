@@ -2,6 +2,7 @@ package com.apptimize.segment;
 
 import com.apptimize.Apptimize;
 import com.apptimize.Apptimize.OnExperimentRunListener;
+import com.apptimize.ApptimizeOptions;
 import com.segment.analytics.Analytics;
 import com.segment.analytics.Properties;
 import com.segment.analytics.ValueMap;
@@ -25,7 +26,8 @@ public class ApptimizeIntegration extends Integration<Void> implements OnExperim
     @Override public Integration<?> create(ValueMap settings, Analytics analytics) {
       String appkey = settings.getString("appkey");
       boolean listen = settings.getBoolean("listen", false);
-      return new ApptimizeIntegration(analytics, appkey, listen, analytics.logger(APPTIMIZE_KEY));
+      boolean eucs = settings.getBoolean("apptimizeEuDataCenter", false);
+      return new ApptimizeIntegration(analytics, appkey, listen, eucs, analytics.logger(APPTIMIZE_KEY));
     }
 
     @Override public String key() {
@@ -39,11 +41,15 @@ public class ApptimizeIntegration extends Integration<Void> implements OnExperim
   final Analytics analytics;
   final Logger logger;
 
-  ApptimizeIntegration(Analytics analytics, String appKey, boolean listen, Logger logger)
+  ApptimizeIntegration(Analytics analytics, String appKey, boolean listen, boolean eucs, Logger logger)
       throws IllegalStateException {
     this.analytics = analytics;
     this.logger = logger;
-    Apptimize.setup(analytics.getApplication(), appKey);
+    ApptimizeOptions apptimizeOptions = new ApptimizeOptions();
+    if(eucs) {
+      apptimizeOptions.setServerRegion(ApptimizeOptions.ServerRegion.EUCS);
+    }
+    Apptimize.setup(analytics.getApplication(), appKey, apptimizeOptions);
     this.logger.verbose("Apptimize.setup(context, %s)", appKey);
     if (listen) {
       Apptimize.setOnExperimentRunListener(this);
@@ -90,7 +96,9 @@ public class ApptimizeIntegration extends Integration<Void> implements OnExperim
   @Override
   public void onExperimentRun(String experimentName, String variantName, boolean firstRun) {
     if (firstRun) {
-      analytics.track("Experiment Viewed", new Properties().putValue("experimentName", experimentName)
+      analytics.track(
+              "Experiment Viewed",
+              new Properties().putValue("experimentName", experimentName)
           .putValue("variationName", variantName));
     }
   }
