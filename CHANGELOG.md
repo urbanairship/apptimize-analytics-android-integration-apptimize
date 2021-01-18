@@ -1,3 +1,8 @@
+Version 3.7.15 18 Jan, 2021)
+==================================
+    * Stability enhancements
+    * Support setting server region in Segment dashboard
+
 Version 3.7.14 08 Jan, 2021)
 ==================================
     * Fix some situations when OnApptimizeInitializedListener.onApptimizeInitialized
