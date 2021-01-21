@@ -1,21 +1,21 @@
-Version 3.7.15 18 Jan, 2021)
+Version 3.7.15 (18 Jan, 2021)
 ==================================
     * Stability enhancements
     * Support setting server region in Segment dashboard
 
-Version 3.7.14 08 Jan, 2021)
+Version 3.7.14 (08 Jan, 2021)
 ==================================
     * Fix some situations when OnApptimizeInitializedListener.onApptimizeInitialized
       does not get called after Apptimize.setup.
 
-Version 3.7.13 16 Dec, 2020)
+Version 3.7.13 (16 Dec, 2020)
 ==================================
     * Performance optimizations for Apptimize.setup and event uploads
     * Stability enhancements
     * Export experiment participation to Mixpanel
     * Add Apptimize.setLogMonitor to optionally pass all Apptimize log output to a custom logger
 
-Version 3.7.10 24 Nov, 2020)
+Version 3.7.10 (24 Nov, 2020)
 ==================================
     * Stability enhancements
 
