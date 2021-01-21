@@ -41,7 +41,7 @@ dependencies {
 
   provided 'com.segment.analytics.android:analytics:4.0.9'
 
-  compile 'com.apptimize:apptimize-android:3.7.15+'
+  compile 'com.apptimize:apptimize-android:3.7.16+'
 
   testCompile 'junit:junit:4.12'
   testCompile('org.robolectric:robolectric:3.0') {

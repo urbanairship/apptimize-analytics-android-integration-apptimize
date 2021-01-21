@@ -1,3 +1,7 @@
+Version 3.7.16 (21 Jan, 2021)
+==================================
+    * Updated API documentation and Feature Variables support
+
 Version 3.7.15 (18 Jan, 2021)
 ==================================
     * Stability enhancements
