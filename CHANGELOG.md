@@ -1,3 +1,12 @@
+Version 3.7.18 (24 Feb, 2021)
+==================================
+    * Added isOffline and removeAllUserAttributes APIs
+
+Version 3.7.17 (19 Feb, 2021)
+==================================
+    * Improved data consistency if user attributes were updated during metadata update
+    * Optimize metadata processing
+
 Version 3.7.16 (21 Jan, 2021)
 ==================================
     * Updated API documentation and Feature Variables support
