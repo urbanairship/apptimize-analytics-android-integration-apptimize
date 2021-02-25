@@ -33,6 +33,10 @@ Releasing
 
 6. ./gradlew clean uploadArchives
 
-7. git push && git push --tags
+7. Make sure you have a github token to authenticate the push. You use a token
+   instead of your password. You can get a token by logging into github
+   and using the Settings > Developer Options > Personal Access Tokens menu.
+
+   git push && git push --tags
 
 8. Visit [Sonatype Nexus](https://oss.sonatype.org/) and promote the artifact.
