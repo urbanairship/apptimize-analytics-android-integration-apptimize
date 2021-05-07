@@ -1,3 +1,13 @@
+Version 3.7.20 (20 Apr, 2021)
+==================================
+    * Improved multiprocess support (ApptimizeOptions.setMultiprocessMode)
+
+Version 3.7.19 (17 Apr, 2021)
+==================================
+    * Remove support for Android 4.4 and 5.x
+    * Improved metadata processing, and it always runs on a background thread
+    * Stability enhancements
+
 Version 3.7.18 (24 Feb, 2021)
 ==================================
     * Added isOffline and removeAllUserAttributes APIs

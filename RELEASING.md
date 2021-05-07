@@ -35,7 +35,7 @@ Releasing
 
 7. Make sure you have a github token to authenticate the push. You use a token
    instead of your password. You can get a token by logging into github
-   and using the Settings > Developer Options > Personal Access Tokens menu.
+   and using the Settings > Developer Settings > Personal Access Tokens menu.
 
    git push && git push --tags
 
