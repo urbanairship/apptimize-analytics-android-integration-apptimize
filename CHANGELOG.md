@@ -1,3 +1,15 @@
+Version 3.7.23 (13 May, 2021)
+==================================
+    * Stability enhancements for multiprocess support (ApptimizeOptions.setMultiprocessMode)
+
+Version 3.7.22 (11 May, 2021)
+==================================
+    * Fixed issue when some applications were not able to generate a pairing token to connect with dashboard
+
+Version 3.7.21 (06 May, 2021)
+==================================
+    * Stability enhancements
+
 Version 3.7.20 (20 Apr, 2021)
 ==================================
     * Improved multiprocess support (ApptimizeOptions.setMultiprocessMode)
