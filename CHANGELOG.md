@@ -1,3 +1,7 @@
+Version 3.7.24 (09 Jun, 2021)
+==================================
+    * Stability enhancements
+
 Version 3.7.23 (13 May, 2021)
 ==================================
     * Stability enhancements for multiprocess support (ApptimizeOptions.setMultiprocessMode)
