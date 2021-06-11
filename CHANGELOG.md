@@ -1,3 +1,7 @@
+Version 3.7.25 (11 Jun, 2021)
+==================================
+    * Stability enhancements. Fix a rare ANR race condition
+
 Version 3.7.24 (09 Jun, 2021)
 ==================================
     * Stability enhancements
