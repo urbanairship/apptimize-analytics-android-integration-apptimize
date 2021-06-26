@@ -1,3 +1,8 @@
+Version 3.7.26 (25 Jun, 2021)
+==================================
+    * Optimize metadata management
+    * Optimize multi-process communications (ApptimizeOptions.setMultiprocessMode)
+
 Version 3.7.25 (11 Jun, 2021)
 ==================================
     * Stability enhancements. Fix a rare ANR race condition
