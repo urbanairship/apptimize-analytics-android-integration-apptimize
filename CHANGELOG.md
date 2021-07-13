@@ -1,3 +1,15 @@
+Version 3.8.0 (13 Jul, 2021)
+==================================
+    * Added Apptimize.getApptimizeOptions(), which returns setup options, updated to
+      reflect actual isDevicePairingEnabled, isVisualChangesEnabled,
+      isThirdPartyEventExportingEnabled, getDeviceName, and getUpdateMetaDataTimeout
+    * Optimize performance for SQLite database access
+
+Version 3.7.26 (12 Jul, 2021)
+==================================
+    * Improve event reporting for multiprocess applications (ApptimizeOptions.setMultiprocessMode)
+    * Improve internal sdk logging
+
 Version 3.7.26 (25 Jun, 2021)
 ==================================
     * Optimize metadata management
