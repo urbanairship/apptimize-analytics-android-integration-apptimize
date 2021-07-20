@@ -1,3 +1,10 @@
+Version 3.8.1 (20 Jul, 2021)
+==================================
+    * Apptimize is available as AAR module with its own proguard rules. 
+      Jar format is deprecated and will be disabled in future releases.
+    * Fixed an issue when forceVariant and clearVariant might not work properly
+    * Fixed an issue when Apptimize wasn't able to process metadata changes
+
 Version 3.8.0 (13 Jul, 2021)
 ==================================
     * Added Apptimize.getApptimizeOptions(), which returns setup options, updated to
