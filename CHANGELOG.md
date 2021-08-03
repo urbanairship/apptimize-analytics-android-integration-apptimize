@@ -1,3 +1,7 @@
+Version 3.8.2 (03 Aug, 2021)
+==================================
+   * Disallow setting a UserID containing only whitespace
+
 Version 3.8.1 (20 Jul, 2021)
 ==================================
     * Apptimize is available as AAR module with its own proguard rules. 

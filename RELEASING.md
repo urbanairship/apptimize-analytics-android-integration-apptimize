@@ -25,7 +25,7 @@ Releasing
 
 3. Update build.gradle with the new build number:
 
-		 compile 'com.apptimize:apptimize-android:m.u.p'
+		 compile 'com.apptimize:apptimize-android:m.u.p@aar'
 
 4. git commit -am "Prepare for release m.u.p."
 
