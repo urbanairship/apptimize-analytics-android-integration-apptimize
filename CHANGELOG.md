@@ -1,3 +1,10 @@
+Version 3.9.0 (17 Aug, 2021)
+==================================
+    * Fix crash importing Mixpanel and Localytics events, introduced by AAR changes
+    * Support for Mixpanel cohorts
+      - Add Apptimize.setMixpanelIdentity()
+      - Automatically import the Mixpanel.identify setting
+
 Version 3.8.2 (03 Aug, 2021)
 ==================================
    * Disallow setting a UserID containing only whitespace
