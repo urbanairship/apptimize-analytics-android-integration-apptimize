@@ -1,3 +1,12 @@
+Version 3.9.2 (22 Sep, 2021)
+==================================
+   * Automatically call MixPanel (if present) with userId changes for cohort tracking
+   * Fixed multiprocess ANR
+
+Version 3.9.0 (21 Sep, 2021)
+==================================
+   * Added ability to reset pilot targeting id by setting a null value
+
 Version 3.9.0 (17 Aug, 2021)
 ==================================
     * Fix crash importing Mixpanel and Localytics events, introduced by AAR changes
