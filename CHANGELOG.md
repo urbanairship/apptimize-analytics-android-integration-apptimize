@@ -1,3 +1,19 @@
+Version 3.9.6 (03 Nov, 2021)
+==================================
+   * Improved multiprocess mode support
+
+Version 3.9.5 (27 Oct, 2021)
+==================================
+   * Add Localytics v6 Support
+
+Version 3.9.4 (12 Oct, 2021)
+==================================
+   * Expose Apptimize.getMetadataSequenceNumber to help troubleshooting
+
+Version 3.9.3 (29 Sep, 2021)
+==================================
+   * Stability enhancements for Android 11 emulators
+
 Version 3.9.2 (22 Sep, 2021)
 ==================================
    * Automatically call MixPanel (if present) with userId changes for cohort tracking
