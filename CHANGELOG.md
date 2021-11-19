@@ -1,3 +1,7 @@
+Version 3.9.7 (19 Nov, 2021)
+==================================
+   * Improved multiprocess mode support
+
 Version 3.9.6 (03 Nov, 2021)
 ==================================
    * Improved multiprocess mode support
