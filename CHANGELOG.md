@@ -1,6 +1,11 @@
+Version 3.10.0 (01 Dec, 2021)
+==================================
+   * Fixed an issue when Apptimize returns empty winners dictionary
+   * Added Apptimize.getVersion()
+
 Version 3.9.7 (19 Nov, 2021)
 ==================================
-   * Improved multiprocess mode support
+   * Optimize visual experiments
 
 Version 3.9.6 (03 Nov, 2021)
 ==================================
