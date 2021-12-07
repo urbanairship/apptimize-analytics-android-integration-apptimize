@@ -1,3 +1,7 @@
+Version 3.10.1 (07 Dec, 2021)
+==================================
+   * Extended Airship integration. Now Apptimize automatically tracks Airship user id and channel tags updates
+
 Version 3.10.0 (01 Dec, 2021)
 ==================================
    * Fixed an issue when Apptimize returns empty winners dictionary
