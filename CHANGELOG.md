@@ -1,3 +1,7 @@
+Version 3.10.2 (22 Dec, 2021)
+==================================
+   * Fix Android 11 ANR when dns lookup is slow
+
 Version 3.10.1 (07 Dec, 2021)
 ==================================
    * Extended Airship integration. Now Apptimize automatically tracks Airship user id and channel tags updates
