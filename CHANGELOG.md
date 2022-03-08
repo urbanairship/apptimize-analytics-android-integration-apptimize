@@ -1,3 +1,10 @@
+Version 3.10.5 (08 Mar, 2022)
+==================================
+  * Support showing group filters in dashboard Preview
+  * Fix clearing of large result sets after posting them to the backend
+  * Fix mixpanel cohort membership lookup to use URL from metadata
+  * Stability enhancements
+
 Version 3.10.2 (22 Dec, 2021)
 ==================================
    * Fix Android 11 ANR when dns lookup is slow
