@@ -1,3 +1,7 @@
+Version 3.10.6 (21 Mar, 2022)
+==================================
+  * Stability enhancements
+
 Version 3.10.5 (08 Mar, 2022)
 ==================================
   * Support showing group filters in dashboard Preview
