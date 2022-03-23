@@ -1,3 +1,9 @@
+Version 3.10.7 (23 Mar, 2022)
+==================================
+  * Use current metaData settings at startup, instead of default values
+  * Export participation data to Mixpanel as Lists to avoid truncation
+  * Internal enhancements
+
 Version 3.10.6 (21 Mar, 2022)
 ==================================
   * Stability enhancements
