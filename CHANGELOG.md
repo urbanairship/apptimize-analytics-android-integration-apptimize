@@ -1,3 +1,7 @@
+Version 3.10.8 (28 Mar, 2022)
+==================================
+  * Stability enhancements. Fix a rare ANR in apps using Mixpanel
+
 Version 3.10.7 (23 Mar, 2022)
 ==================================
   * Use current metaData settings at startup, instead of default values
