@@ -1,3 +1,8 @@
+Version 3.10.9 (05 May, 2022)
+==================================
+  * Deprecated Apptimize.setMixpanelIdentity()
+  * Fixed order of initialization limitations in Mixpanel cohort integration
+
 Version 3.10.8 (28 Mar, 2022)
 ==================================
   * Stability enhancements. Fix a rare ANR in apps using Mixpanel
