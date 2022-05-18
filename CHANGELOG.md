@@ -1,3 +1,7 @@
+Version 3.10.10 (18 May, 2022)
+==================================
+  * Fixed a rare issue when Apptimize could return stale winners info
+
 Version 3.10.9 (05 May, 2022)
 ==================================
   * Deprecated Apptimize.setMixpanelIdentity()
