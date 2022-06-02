@@ -1,3 +1,7 @@
+Version 3.10.11 (02 Jun, 2022)
+==================================
+  * Stability enhancements
+
 Version 3.10.10 (18 May, 2022)
 ==================================
   * Fixed a rare issue when Apptimize could return stale winners info
