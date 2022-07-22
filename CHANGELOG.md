@@ -1,3 +1,7 @@
+Version 3.10.13 (22 Jul, 2022)
+==================================
+  * Fix strict mode violation while getting device properties on Android 12
+
 Version 3.10.12 (20 Jul, 2022)
 ==================================
   * Stability enhancements
