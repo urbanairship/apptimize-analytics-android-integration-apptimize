@@ -1,3 +1,7 @@
+Version 3.10.16 (15 Nov 2022)
+==================================
+  * Stability enhancements
+
 Version 3.10.15 (16 Sep 2022)
 ==================================
   * Performance enhancements
