@@ -1,3 +1,7 @@
+Version 3.10.18 (23 Nov 2022)
+==================================
+  * Fixed mParticle integration (v5.44.2+)
+
 Version 3.10.17 (18 Nov 2022)
 ==================================
   * Improved handling of rare crash in Conscrypt library on versions 8.0 and under
