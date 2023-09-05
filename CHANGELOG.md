@@ -1,3 +1,7 @@
+Version 3.11.0 (05 Sep 2023)
+==================================
+  * Updated visual support for Android 12+
+
 Version 3.10.18 (23 Nov 2022)
 ==================================
   * Fixed mParticle integration (v5.44.2+)
