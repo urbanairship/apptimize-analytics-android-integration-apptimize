@@ -1,3 +1,7 @@
+Version 3.12.0 (10 May 2024)
+==================================
+  * added partnerID property
+
 Version 3.11.0 (05 Sep 2023)
 ==================================
   * Updated visual support for Android 12+
