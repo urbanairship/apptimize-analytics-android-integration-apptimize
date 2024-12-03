@@ -1,3 +1,7 @@
+Version 3.12.1 (03 Dec 2024)
+==================================
+  * Fix a rare crash when Apptimize is initialized in background
+
 Version 3.12.0 (10 May 2024)
 ==================================
   * added partnerID property
