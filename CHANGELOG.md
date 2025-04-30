@@ -1,3 +1,7 @@
+Version 3.12.2 (30 Apr 2025)
+==================================
+  * Fix an issue when a forced variant remains active despite being un-forced later
+
 Version 3.12.1 (03 Dec 2024)
 ==================================
   * Fix a rare crash when Apptimize is initialized in background
